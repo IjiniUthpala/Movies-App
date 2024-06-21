@@ -1,0 +1,45 @@
+img {
+  width: 100px;
+  float: left;
+  padding-right: 5px;
+}
+
+.Movie {
+  width: 600px;
+  height: 150px;
+  float: left;
+  margin: 5px;
+}
+
+.MovieTitle {
+  font-weight: bold;
+}
+
+.MovieText {
+  font-size: 70%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.GenresText, .VideosText {
+  font-size: 70%;
+}
+/* Video Modal */
+.ReactModal__Overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ReactModal__Content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.VideoText {
+  color: blue;
+  cursor: pointer;
+}
